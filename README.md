@@ -16,3 +16,13 @@ Important Concepts of block chain
 - Distributed P2P Network
 - Mining
 - Consensus Protocol
+
+
+## Hash Cryptography
+- Fingerprints are 1 in 60M
+- SHA256 by NSA
+-- Secure Hash Algo using 256 bits
+-- one way
+-- Hexadecimal hash
+-- 64 Chars string is generated
+-- Create SHA256 hash here , https://tools.superdatascience.com/blockchain/hash
