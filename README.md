@@ -38,4 +38,4 @@ Important Concepts of block chain
 --------------------- --------------------- --------------------- --------------------- 
 
 ## Immutable Ledger
-
+a ledger that can not be modified by un-authorized person
