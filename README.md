@@ -20,9 +20,13 @@ Important Concepts of block chain
 
 ## Hash Cryptography
 - Fingerprints are 1 in 60M
-- SHA256 by NSA
--- Secure Hash Algo using 256 bits
--- one way
--- Hexadecimal hash
--- 64 Chars string is generated
--- Create SHA256 hash here , https://tools.superdatascience.com/blockchain/hash
+
+## SHA256 by NSA
+- Secure Hash Algo using 256 bits
+- one way
+- Deterministic
+- Fast Computation
+- The Avalanche Effect
+- Hexadecimal hash
+- 64 Chars string is generated
+- Create SHA256 hash here , https://tools.superdatascience.com/blockchain/hash
