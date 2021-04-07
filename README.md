@@ -17,16 +17,25 @@ Important Concepts of block chain
 - Mining
 - Consensus Protocol
 
+--------------------- --------------------- --------------------- --------------------- 
 
 ## Hash Cryptography
 - Fingerprints are 1 in 60M
 
-## SHA256 by NSA
-- Secure Hash Algo using 256 bits
+## Requirements of Hash Also
 - one way
 - Deterministic
 - Fast Computation
-- The Avalanche Effect
+- The Avalanche Effect: small change in input should reflect change in hash value
+- Must withstand collisions: collisions will happen but must be rare, it should not be possible to intentionaaly create the input to create a desired hash value
+
+## SHA256 by NSA
+- Secure Hash Algo using 256 bits
 - Hexadecimal hash
 - 64 Chars string is generated
 - Create SHA256 hash here , https://tools.superdatascience.com/blockchain/hash
+
+--------------------- --------------------- --------------------- --------------------- 
+
+## Immutable Ledger
+
