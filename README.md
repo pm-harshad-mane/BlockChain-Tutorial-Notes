@@ -24,7 +24,7 @@ Important Concepts of block chain
 
 ## Requirements of Hash Also
 - one way
-- Deterministic
+- Deterministic (same input should always generate same output)
 - Fast Computation
 - The Avalanche Effect: small change in input should reflect change in hash value
 - Must withstand collisions: collisions will happen but must be rare, it should not be possible to intentionaaly create the input to create a desired hash value
@@ -100,7 +100,8 @@ Important Concepts of block chain
 
 ## Blockchain Demo
 - https://tools.superdatascience.com/blockchain/block
-
+- https://tools.superdatascience.com/blockchain/blockchain
+- https://tools.superdatascience.com/blockchain/distributed
 
 
 
