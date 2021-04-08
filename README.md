@@ -73,8 +73,9 @@ Important Concepts of block chain
 --------------------- --------------------- --------------------- --------------------- 
 
 ## Consensus Protocol
-- it follows Byzantine protocol
+- it follows Byzantine Generals Problem protocol
 - if traitors aquire more than half network (peers) then the newtork can be hacked 
+- Read: Understanding Blockchain Fundamentals, Part 1: Byzantine Fault Tolerance:  https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419
 
 ## Byzantine Fault Tolerance
 - there are 4 generals, they have to aquire a castle
