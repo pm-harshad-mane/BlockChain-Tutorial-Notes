@@ -49,7 +49,7 @@ Important Concepts of block chain
 - if one node is hacked, its data is considered in-consistent
 - For a successful hack ine will need to hack more than half of the nodes simultaneously
 - Read: The Meaning of Decentralization : https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274
-
+- Decentralized vs Distributed?
 
 
 
