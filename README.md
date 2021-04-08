@@ -38,4 +38,5 @@ Important Concepts of block chain
 --------------------- --------------------- --------------------- --------------------- 
 
 ## Immutable Ledger
-a ledger that can not be modified by un-authorized person
+- a ledger that can not be modified by un-authorized person
+- Read: The Blockchain Economy: A beginner’s guide to institutional cryptoeconomics https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4
