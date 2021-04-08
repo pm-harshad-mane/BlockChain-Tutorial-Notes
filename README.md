@@ -60,7 +60,16 @@ Important Concepts of block chain
 - Block has: Block number, Data, Prev block hash, current block hash and NONCE
 - Apart from Hash used in a block, there is also a "Nonce" in each block, Number used only once!
 - Hash is generated of ( Data, Block number, Nonce, Previous hash ), changing any one value will change hash due to avalanche effect of SHA256
-- 
+
+## How mining works? The Cryptographic Puzzle
+- A hash is a number
+- while mining a target (max) hash value is set
+- any hash generated gretaer than the target doesn't count
+- its a challenge / hurdle created to increase complexity 
+- you get to mine a block only if you create a hash smaller than the target
+- to create a controlled hash you can keep changing Nonce of the block you want to add
+- so miners keep finding Nonce that will create the hash under below the target hence allowing to add the block
+
 
 
 
