@@ -43,7 +43,12 @@ Important Concepts of block chain
 
 ## Distributed P2P Network
 - If chain is kept only at one place then it can be still modified 
-- Keep the chain data in distributed n/w , coped at multiple nodes
+- Keep the chain data in distributed peer to peer n/w , copied at multiple nodes
+- Peers constatntly update/verify the data copies with each other, 
+- majority wins; data consistency with most-nodes is valued more
+- if one node is hacked, its data is considered in-consistent
+- For a successful hack ine will need to hack more than half of the nodes simultaneously
+- Read: The Meaning of Decentralization : https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274
 
 
 
