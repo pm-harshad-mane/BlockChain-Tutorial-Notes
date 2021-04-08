@@ -56,6 +56,10 @@ Important Concepts of block chain
 --------------------- --------------------- --------------------- --------------------- 
 
 ## Mining
+- A block may store Data of multiple transactions
+- Block has: Block number, Data, Prev block hash, current block hash and NONCE
+- Apart from Hash used in a block, there is also a "Nonce" in each block, Number used only once!
+- Hash is generated of ( Data, Block number, Nonce, Previous hash ), changing any one value will change hash due to avalanche effect of SHA256
 - 
 
 
