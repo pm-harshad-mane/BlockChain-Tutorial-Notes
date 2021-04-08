@@ -70,8 +70,19 @@ Important Concepts of block chain
 - to create a controlled hash you can keep changing Nonce of the block you want to add
 - so miners keep finding Nonce that will create the hash under below the target hence allowing to add the block
 
+--------------------- --------------------- --------------------- --------------------- 
 
+## Consensus Protocol
+- it follows Byzantine protocol
+- if traitors aquire more than half network (peers) then the newtork can be hacked 
 
+## Byzantine Fault Tolerance
+- there are 4 generals, they have to aquire a castle
+- one of the general is the lead and one of them is (or may be) a traitor, the lead may be the traitor 
+- they can attack or retreat
+- once the leader sends a message the remaing generals will cross check the message received (attack/retreat) among them
+- based on the majority (not equal votes,  majority is required) what the order is received they will act, they are reaching the Consensus here
+- 
 
 
 
