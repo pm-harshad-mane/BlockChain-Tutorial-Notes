@@ -51,8 +51,10 @@ Important Concepts of block chain
 - Read: The Meaning of Decentralization : https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274
 - Decentralized vs Distributed?
 
+--------------------- --------------------- --------------------- --------------------- 
 
-
+## Mining
+- 
 
 
 
