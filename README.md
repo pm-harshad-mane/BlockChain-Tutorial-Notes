@@ -40,3 +40,17 @@ Important Concepts of block chain
 ## Immutable Ledger
 - a ledger that can not be modified by un-authorized person
 - Read: The Blockchain Economy: A beginner’s guide to institutional cryptoeconomics https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4
+
+## Distributed P2P Network
+- If chain is kept only at one place then it can be still modified 
+- Keep the chain data in distributed n/w , coped at multiple nodes
+
+
+
+
+
+
+
+
+
+
