@@ -72,18 +72,39 @@ Important Concepts of block chain
 
 --------------------- --------------------- --------------------- --------------------- 
 
-## Consensus Protocol
-- it follows Byzantine Generals Problem protocol
-- if traitors aquire more than half network (peers) then the newtork can be hacked 
-- Read: Understanding Blockchain Fundamentals, Part 1: Byzantine Fault Tolerance:  https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419
-
 ## Byzantine Fault Tolerance
+- it follows Byzantine Generals Problem protocol
 - there are 4 generals, they have to aquire a castle
 - one of the general is the lead and one of them is (or may be) a traitor, the lead may be the traitor 
 - they can attack or retreat
 - once the leader sends a message the remaing generals will cross check the message received (attack/retreat) among them
 - based on the majority (not equal votes,  majority is required) what the order is received they will act, they are reaching the Consensus here
-- 
+- if traitors aquire more than half network (peers) then the newtork can be hacked 
+- Read: Understanding Blockchain Fundamentals, Part 1: Byzantine Fault Tolerance:  https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419
+
+
+--------------------- --------------------- --------------------- --------------------- 
+
+## Consensus Protocol
+- Consensus protocol is needed in peers to handle the attacks on network or even the delay in the data addition
+- Two widely used ones are, Proof Of Work (POW) and Proof Of Stake (POS)
+- BitCoin uses POW, Ethereum uses POW but is moving to POS
+- Solution to the cryptographic problem and efforts/investment needed to find solution can be considered as Proof Of Work
+- Miners are rewarded with some coins and some transaction fees
+- There are multiple checks (long list) before a new block(mined by someon) is added to chain by peers
+- Cryptographic puzzles are hard to solve but easy to verify, find if the hash of the block matches and it is below target
+- what if two miners add a block at the same time? solved by Byzantine Fault Tolerance, 
+- longest chain wins as the faster working peers will process more blocks 
+- Read: Satoshi Nakamoto mentioning Bizantine protocol, https://www.mail-archive.com/cryptography@metzdowd.com/msg09997.html
+- Read: A (Short) Guide to Blockchain Consensus Protocols: https://www.coindesk.com/short-guide-blockchain-consensus-protocols
+
+
+
+
+
+
+
+
 
 
 
